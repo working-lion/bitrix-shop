@@ -1,0 +1,398 @@
+@media (max-width: 1169px) and (min-width: 320px) {
+	/* Комментарии, вход, купить в 1 клик*/
+	
+	div#modal_form3 {
+    height: auto;
+/*     top: 20%; */
+    margin-top: 0;
+}
+div#modal_form, .moda, div#modal_form2, div#modal_form3  {
+    height: auto;	
+    overflow: auto;
+    max-height: 100%;	
+}
+.moda h3 {
+    margin-bottom: 20px;	
+}	
+	/*End*/
+}
+
+@media (max-width: 865px) and (min-width: 320px) {
+	/*Корзина*/
+tr.cart_last_trr td.cart_summ:after {
+    width: 70%;
+}	
+table.cart.resulya tr.cart_last_trr td.cart_summ {
+    display: none;
+}
+td.cart_summ, .cart_summa {
+font-size: 16px;	
+}
+/*End*/
+
+/*Избранное*/
+
+td.wishlist_price, .wish_price {
+    display: none;
+}
+table.wishlist tr th.wish_remove {
+    font-size: 0;	
+}
+
+.wishlist_buy input[type="button"] {
+    padding: 10px 15px;	
+    font-size: 13px;	
+}
+table.wishlist tbody tr td.wishlist_count input.number {
+    font-size: 16px;	
+}
+
+/*End*/
+
+/*Фильтр*/
+/*  .shop-filter .filter_block .input-title {
+    font-size: 14px;
+} 
+ */
+.sty.hide {
+    font-size: 16px;
+    display: block;	
+} 
+/*End*/
+	
+	/*Сравнение*/
+.shop_compare_description__caption {
+    padding: 5px;
+    font-size: 13px;
+    line-height: 1.2;
+}	
+.shop_compare_list .shop {
+    margin: 0;	
+}
+form.shop_compare_form input.btn {
+    margin-bottom: 20px;
+}
+.shop_compare_list .right_bl .shop-item:nth-child(even) {
+    margin-right: 0;
+}
+/*End*/
+} 
+
+/********************* sred *******************/
+ 
+@media (max-width: 668px) and (min-width: 320px) {
+	/* Новости и статьи */
+.news_list .news.block, .clauses_list .block {
+    flex-wrap: wrap;	
+}
+
+a.news_list_block__url, a.claus_list_block__url {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;	
+}
+
+.news_list .block-text, .clauses_list .block-text {
+    width: 100%;
+}	
+/*End*/
+
+/* Отзывы  */
+
+.reviews_form {
+	width: 100%;
+}
+
+
+/*faq*/
+
+.faq.block {
+    padding: 4%;	
+}
+
+.faq_question:before {
+    right: -2%;
+}
+
+/*End*/
+
+/* Корзина */
+tr.cart_last_trr ~ tr td.cart_summ {
+    font-size: 13px;	
+}
+.cart tbody tr td.cart_count .cart_count_minus, .cart tbody tr td.cart_count .cart_count_plus {
+    display:none;
+}
+
+.cart tbody tr td.cart_count input.number {
+    font-size: 14px;
+    border: 1px solid #ccc;	
+}
+
+.cart tbody tr td {
+    font-size: 13px;	
+}
+
+.car_img {
+    display: none;
+}
+
+td.cart_summ, .cart_summa {
+    line-height: 13px;
+    font-size: 13px;
+}
+.left_block, .righ_block {
+    width: 100%;
+    margin-right: 0;	
+}
+.pay_may select {
+    width: 40%;	
+}
+
+.cart_form h2 {
+    font-size: 16px;	
+}
+
+
+.shop_block_coupon input[type="submit"] {
+    padding: 0 2%;	
+}
+
+.shop_block_coupon input[type="text"] {
+    width: 25%;
+    margin-left: 2%;	
+}
+
+tr.cart_last_trr td.cart_totalr {
+    line-height: 1;	
+}
+table.cart thead tr th, .cart tbody tr td.cart_name a, td.cart_delivery .cart_delivery_text, span.title_sum {
+    font-size: 13px;	
+    line-height: 1.2;	
+}
+.cart tbody tr td {
+    padding: 5px 0;	
+}
+
+table.cart thead tr th.cart_count {
+    width: 25%;
+}
+span.shop_block_coupon__name {
+    display: block;
+    margin-bottom: 10px;
+}
+.shop_block_coupon input[type="text"] {
+    width: 60%;
+    margin-left: 0;
+}
+/*End*/
+
+/*Сравнение*/
+
+.shop_compare_description {
+    margin-bottom: 28px;
+}
+.shop_compare_description__caption {
+    padding: 5%;	
+	font-size: 13px;
+}
+.shop_compare_left {
+    width: 40%;	
+}
+
+.shop_compare_list {
+  margin-top: 0; 
+}
+.shop_compare_list {
+    width: 60%;		
+}
+
+.shop_compare_list .flex_buy_block {
+    flex-wrap: wrap;	
+}
+.shop_compare_list .number_bl {
+    width: 100%;
+    margin-bottom: 10px;
+}
+/*End*/
+
+/*Отложенные*/
+
+table.wishlist tbody tr td.wishlist_count .wishlist_count_minus, table.wishlist tbody tr td.wishlist_count .wishlist_count_plus {
+	display: none;
+}
+table.wishlist tbody tr td.wishlist_count input.number {
+    font-size: 13px;
+    border: 1px solid #ccc;
+}
+
+table.wishlist .kartinka, table.wishlist tbody tr td.wishlist_count, .wish_count {
+    display: none;
+}
+
+table.wishlist tr th, table.wishlist .nam_tovae, table.wishlist td.wishlist_summ, table.wishlist tbody tr td.wishlist_name, table.wishlist tbody tr td, tr.wishlist_last_trr td.wishlist_totalr {
+    font-size: 13px;
+}
+table.wishlist tbody tr td {
+    padding: 5px 0;	
+}
+table.wishlist tr th.wish_name {
+    width: 25%;	
+}
+.wishlist_buy input[type="button"] {
+    padding: 7px 10px;
+    font-size: 12px;
+}
+/*End*/
+
+/*Формы*/
+.registration_form, .usersettings_form, form.reminding_form {
+    width: 100%;
+}
+.rega {
+	font-size: 13px;
+}
+.moda .blocha_vh a.arrow-link.black {
+    margin-left: 0;
+    margin-top: 7px;	
+}
+form.usersettings_form .infofield, form.reminding_form .infofield {
+    font-size: 13px;
+    line-height: 18px;	
+}
+
+.usersettings_form input[type="submit"], .registration_form input[type="submit"],.reminding_form input[type="submit"] {
+    width: 62%;
+    margin-top: 10px;
+}
+div#modal_form, .moda, div#modal_form2, div#modal_form3  {
+    padding: 10%;	
+}
+
+/*End*/
+h1, .header_block {font-size: 24px;} 
+
+.header_block:after, .text_bl h1:after {
+    top: 14px;
+}
+
+/* ЛК */
+
+.nom, .pric {
+    display: none;
+}
+
+.balance_block .balance__btn {
+/*     margin: 5px 0;
+    display: block;	 */
+}
+
+th.date_zak {
+    width: 13%;
+}
+
+table.user_order td.date_zak {
+    padding: 0;
+    word-wrap: break-word;
+}
+
+.sum {
+    width: 24%;
+}
+.cnt_bl p, .cnt_bl li, table.user_order td {
+    font-size: 13px;
+    line-height: 18px;	
+}
+
+table.user_order td {
+    padding: 5px;	
+}
+
+.cnt_bl table.user_order ol {
+    margin-left: 15px;	
+}
+
+th.tovars {
+    width: 35%;
+}
+table.user_order th {
+    padding: 5px;
+    font-size: 13px;	
+}
+.balance_form__left {
+    width: 100%;
+    margin-bottom: 10px;	
+}
+form.balance_form input[type="submit"] {
+    margin-left: 0;
+    padding: 13px 14px 12px;
+    font-size: 13px;	
+}
+
+/*End*/
+
+/*Контакты*/
+.block_lefa {
+    width: 100%;
+    margin-right: 0;
+	margin-bottom: 30px;
+}
+
+.mapa {
+    width: 100%;
+    margin-top: 0;	
+}
+/*End*/
+}
+
+@media (max-width: 420px) and (min-width: 320px) {
+	
+	/*Формы*/
+.content .block_header {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+h1, .header_block, .shop_text h2 {
+    font-size: 22px;
+}
+
+.shop_id h2 {
+	margin: 20px 0;
+}
+
+.comments_form div.dop_text_ot {
+    font-size: 13px;
+    line-height: 1.2;
+}
+
+.kommen .block_header {
+    margin-bottom: 10px;
+}
+/*End*/
+
+/*FAQ*/ 
+.faq_ask__open_form {
+    flex-wrap: wrap;
+}	
+
+.faq_desc {
+    margin-top: 10px;	
+}
+
+a.button.faq_button {
+	width: 100%;
+	margin-right: 0;
+}
+
+.faq.block {
+    padding: 3%;
+}
+/*End*/
+
+/*Tabs*/
+ul.tabs__caption li {
+    width: 50%;	
+}
+/*End*/
+}
